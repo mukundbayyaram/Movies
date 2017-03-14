@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FetchService } from '../fetch.service';
-import { SpinnerComponent } from '../spinner/spinner.component';
 
 @Component({
   selector: 'app-results',

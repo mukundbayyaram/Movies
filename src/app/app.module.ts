@@ -6,13 +6,11 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ResultsComponent } from './results/results.component';
 import { FetchService } from './fetch.service';
-import { SpinnerComponent } from './spinner/spinner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ResultsComponent,
-    SpinnerComponent
+    ResultsComponent
   ],
   imports: [
     BrowserModule,

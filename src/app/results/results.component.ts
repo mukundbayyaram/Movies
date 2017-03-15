@@ -4,7 +4,14 @@ import { FetchService } from '../fetch.service';
 @Component({
   selector: 'app-results',
   templateUrl: './results.component.html',
-  styleUrls: ['./results.component.css'],
+  styles: [`
+    .list-group-item { 
+      cursor: pointer;
+    }
+    .titles {
+      color: blue;
+    }`
+  ],
   providers: [FetchService]
 })
 
